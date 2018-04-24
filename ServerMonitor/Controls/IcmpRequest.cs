@@ -160,7 +160,7 @@ namespace ServerMonitor.Controls
                 return false;
             }
         }
-
+        //请求IP
         private IPAddress _domain;
         public IPAddress Domain
         {
@@ -178,7 +178,7 @@ namespace ServerMonitor.Controls
         }
 
         
-
+        //颜色状态
         private List<string> _color = new List<string>();
 
         public List<string> Color
@@ -187,6 +187,8 @@ namespace ServerMonitor.Controls
             set { _color = value;}
         }
 
+
+        //请求时间
         private List<string> _time = new List<string>();
 
         public List<string> Time
@@ -195,6 +197,7 @@ namespace ServerMonitor.Controls
             set { _time = value; }
         }
 
+        //生存时间
         private List<string> _ttl = new List<string>();
 
         public List<string> TTL
@@ -203,6 +206,8 @@ namespace ServerMonitor.Controls
             set { _ttl = value; }
         }
 
+
+        //数据包
         private List<string> _bytes = new List<string>();
 
         public List<string> Bytes
